@@ -553,10 +553,6 @@ generate_config() {
 	json_close_array
 	json_add_string "exec" "reject 3"
 	json_close_object
-	json_add_object
-	json_add_string "matches" "qtype 65"
-	json_add_string "exec" "reject 3"
-	json_close_object
 	json_close_array
 	json_close_object
 	# plugin: query_is_stream_media_domain
